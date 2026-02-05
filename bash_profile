@@ -4,8 +4,8 @@ echo -e "`bash --version`"
 echo -ne "Uptime: "; uptime
 echo -ne "Server time is: "; date
 
-if [ -f bashrc ]; then
-    . ./bashrc
+if [ -f $HOME/.bashrc ]; then
+    . $HOME/.bashrc
 fi
 
 set -o vi
