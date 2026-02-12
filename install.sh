@@ -1,4 +1,4 @@
-#!/usr/bin/env bas
+#!/usr/bin/env basRR
 
 script_dir=$(dirname "$(readlink -f "$0")")
 
